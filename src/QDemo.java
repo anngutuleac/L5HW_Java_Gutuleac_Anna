@@ -16,7 +16,7 @@ class Queue {
         q[putloc] = ch;
     }
     // Извлечь символ из очереди
-    char get () {
+    char get() {
         if (getloc == putloc) {
             System.out.println(" - Очередь пуста");
             return (char) 0;
