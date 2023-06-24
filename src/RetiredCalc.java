@@ -8,6 +8,7 @@ public class RetiredCalc {
         int age = scanner.nextInt();
 
         Human human = new Human(gender, age);
+
         int retiredAgeDiff = human.retiredAgeDiff();
 
         if (retiredAgeDiff > 0) {
